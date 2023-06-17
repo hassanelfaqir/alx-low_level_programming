@@ -19,7 +19,7 @@ int main(void)
 			in += 39;
 		in++;
 	}
-	putchar('\n);
+	putchar('\n');
 
 	return (0);
 }
