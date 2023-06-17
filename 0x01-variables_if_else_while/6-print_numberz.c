@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - Entry point
+ * main - Entry point of the program
  *
  * descreption - all single digit numbers of base 10 starting from 0
  *
@@ -13,7 +13,7 @@ int main(void)
 
 	while (in < 10)
 	{
-		/*convert in to ascii code */
+		/*convert in to ASCII represention code */
 		putchar(in + '0');
 		in++;
 	}
