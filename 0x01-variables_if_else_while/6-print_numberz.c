@@ -13,6 +13,7 @@ int main(void)
 
 	while (in < 10)
 	{
+		/*convert in to ascii code */
 		putchar(in + '0');
 		in++;
 	}
