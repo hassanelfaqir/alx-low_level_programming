@@ -1,8 +1,15 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
+#include <stdio.h>
 
-/* betty style doc for function main goes there */
+/**
+ * main - Entry point of the program
+ *
+ * Description:  positive, negative, or zero.
+ *
+ * Return: 0 (Success)
+ */
+
 int main(void)
 {
 	int n;
@@ -15,6 +22,5 @@ int main(void)
 		printf("%i is ziro\n", n);
 	else
 		printf("%i is negative\n", n);
-	/* your code goes there */
 	return (0);
 }
