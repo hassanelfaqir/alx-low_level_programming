@@ -1,11 +1,11 @@
-#include <stdio.h>
+#include <stdio.>
 
 /**
  * main - Entry point of the program
  *
- * descreption: all single digit numbers of base 10 starting from 0.
+ * Description: This program prints the numbers from 0 to 9.
  *
- * return: Always 0 (Success)
+ * Return: 0 indicating successful execution
  */
 
 int main(void)
@@ -20,5 +20,5 @@ int main(void)
 	}
 	putchar('\n');
 
-	return 0;
+	return (0);
 }
