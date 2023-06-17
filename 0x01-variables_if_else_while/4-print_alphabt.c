@@ -5,21 +5,21 @@
  *
  * Description: prints the alphabet in lowercase ,exept q ,e
  *
- * Return: 0 (Success)
+ * Return: 0 (Sussec}
  */
 
 int main(void)
-{       
+{
 	char ch = 'a';
 
-        while (ch <= 'z')
-        {
+	while (ch <= 'z')
+	{
 		if (ch == 'e' || ch == 'q')
 			ch++;
-                putchar(ch);
-                ch++;
-        }
-        putchar('\n');
+		putchar(ch);
+		ch++;
+	}
+	putchar('\n');
 
-        return (0);
+	return (0);
 }
