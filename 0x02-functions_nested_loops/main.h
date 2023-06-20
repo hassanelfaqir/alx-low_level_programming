@@ -13,4 +13,16 @@ int _abs(int);
 int print_last_digit(int);
 void jack_bauer(void);
 void times_table(void);
+/**
+* add - adds two integers and returns the result
+* @a: int to be added to b
+* @b: int to be added to a
+* Return: sum of a and b
+*/
+int add(int a, int b)
+{
+	int c;
+	c = a + b;
+	return (c)
+}
 #endif 
