@@ -1,5 +1,4 @@
-#include<stdio.h>
-#include<main.h>
+#include "main.h"
 
 /**
  * main - check the code
@@ -11,7 +10,7 @@
 
 int main(void)
 {
-	printf("_putchar %c\n");
+	printf("_putchar%c\n");
 
 	return (0);
 }
