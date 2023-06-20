@@ -11,12 +11,12 @@ void print_alphabet(void)
 {
 	char ch = 'a';
 
-	while (letter <= 'z')
+	while (ch <= 'z')
 	{
 		_putchar(ch);
 		ch++;
 
-		if (letter > 'z')
-			putchar('\n');
+		if (ch > 'z')
+			_putchar('\n');
 	}
 }
