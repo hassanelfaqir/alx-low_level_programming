@@ -19,7 +19,7 @@ int print_sign(int c)
 	}
 	else if (c == 0)
 	{
-		_putchat(48);
+		_putchar(48);
 		return (0);
 	}
 	else if (c < 0)
