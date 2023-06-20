@@ -8,7 +8,7 @@ include "main.h"
 
 void times_table(void)
 {
-	int x, y, z, u, d;
+	int i, j, k;
 
 	for (i = 0; i < 10; i++)
 	{
