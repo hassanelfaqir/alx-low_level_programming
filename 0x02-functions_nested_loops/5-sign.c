@@ -3,14 +3,13 @@
 /**
  * print_sign - Write a function that prints the sign of a number
  *
- * @c :check input of function 
- *
- * Return: 1 and prints + if n is greater than zero
+ * @c : check input of function
+ * Return:1 and prints + if n is greater than zero
  * Returns 0 and prints 0 if n is zero
- * Returns -1 and prints - if n is less than zero (Success)
+ * Returns -1 and prints - if n is less than zero(Success)
  */
 
-int print_sign(int n)
+int print_sign(int c)
 
 {
 	if (c > 0)
