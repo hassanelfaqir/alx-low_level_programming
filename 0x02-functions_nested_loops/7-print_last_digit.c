@@ -16,6 +16,6 @@ int print_last_digit(int n)
 		lastdegit = (-1) * (n % 10);
 	else
 		lastdegit = (n % 10);
-	_putchat(lastdegit + '0');
+	_putchar(lastdegit + '0');
 	return (lastdegit);
 }
