@@ -26,7 +26,7 @@ dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 	if (hdr != NULL)
 	{
 		while (hdr->next != NULL)
-			hdr = h->next;
+			hdr = hdr->next;
 		hdr->next = new_N;
 	}
 	else
