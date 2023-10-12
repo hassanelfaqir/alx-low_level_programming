@@ -25,12 +25,12 @@ dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 	if (hdr != NULL)
 	{
 		while (hdr->prev != NULL)
-			hdr = h->prev;
+			hdr = hdr->prev;
 	}
 	new_N->next = hdr;
 
 	if (hdr != NULL)
-		h->prev = new_N;
+		hdr->prev = new_N;
 
 	*head = new_N;
 
