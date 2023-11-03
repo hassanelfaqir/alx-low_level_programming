@@ -50,7 +50,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	}
 	n->value = v_copy;
 	n->next = ht->array[id];
-	ht->array[index] = n;
+	ht->array[id] = n;
 
 	return (1);
 }
